@@ -1,0 +1,26 @@
+<img src="https://angular.io/assets/images/logos/angular/logo-nav@2x.png">
+<h1>Hi {{currentUser.firstName}}!</h1>
+<p>Welcome to Vectramind </p>
+<h6>All registered users:</h6>
+<!-- <ul>
+    <li *ngFor="let user of users">
+        <h5>username:</h5>{{user.username}}  <h5>password:</h5>{{user.password}}
+    
+    </li>
+</ul>
+ -->
+
+<table>
+    <tr>
+        <th>username</th>
+        <th>password</th>
+    </tr>
+    <tr *ngFor="let user of users">
+        <td>{{user.username}}</td>
+        <td>{{user.password}}</td>
+    </tr>
+</table>
+
+<div>
+    <marquee><h1>welcome to {{currentUser.firstName}}</h1></marquee>
+</div>
