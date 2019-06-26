@@ -6,7 +6,7 @@ import { environment } from './environments/environment';
 import 'hammerjs';
 
 import './polyfills';
- //platformBrowserDynamic().bootstrapModule(AppModule);
+//platformBrowserDynamic().bootstrapModule(AppModule);
 
 if (environment.production) {
   enableProdMode();

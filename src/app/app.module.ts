@@ -38,6 +38,7 @@ import { routing } from './app.routing';
     // provider used to create fake backend
     fakeBackendProvider
 ],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
